@@ -5,7 +5,7 @@
 
 This repo contains 4 files:
 1. **pdfToImages.py**: converts PDF files to images
-2. **imagesOCR.py**: performs OCR on a set of images with the [Azure Computer Vision API](https://azure.microsoft.com/en-en/services/cognitive-services/computer-vision/#text), then stores the results in json files
+2. **imageOCR.py**: performs OCR on a set of images with the [Azure Computer Vision API](https://azure.microsoft.com/en-en/services/cognitive-services/computer-vision/#text), then stores the results in json files
 3. **OCRinterpretation.py**: interprets the results from the json files and generates new json files with the pdf's structure
 4. **pdfProcessing.py**: takes care of the whole pipeline described above
 
@@ -14,6 +14,8 @@ This repo contains 4 files:
 - Install [GhostScript](https://www.ghostscript.com/download/gsdnld.html) on Windows
 - Install [ImageMagick](https://imagemagick.org/script/download.php#windows) on Windows
 - Install Wand: `pip install wand`
+- Install OpenCV: `pip install opencv-python`
+- Install Matplotlib: `pip install matplotlib`
 
 ## How to use
 
