@@ -9,7 +9,7 @@ This repo contains 4 files:
 3. **OCRinterpretation.py**: interprets the results from the json files and generates new json files with the pdf's structure
 4. **pdfProcessing.py**: takes care of the whole pipeline described above
 
-## Installations
+## Installs
 
 - Install [GhostScript](https://www.ghostscript.com/download/gsdnld.html) on Windows
 - Install [ImageMagick](https://imagemagick.org/script/download.php#windows) on Windows
